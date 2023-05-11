@@ -1,13 +1,18 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+	import React from "react";
+	import { render } from "react-dom";
+	import Emoji from './components/emoji'
 
-import App from "./App";
+	import data from "./data/profile.json";
 
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
+	const styles = {
+	  fontFamily: "sans-serif",
+	  textAlign: "center"
+	};
 
-root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+	const App = () => (
+	  <div style={styles}>
+		<Emoji data={data} />
+	  </div>
+	);
+
+	render(<App />, document.getElementById("root"));
