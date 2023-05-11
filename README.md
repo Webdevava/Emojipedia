@@ -7,7 +7,6 @@ Emojipedia is a React.js application that displays a collection of emojis along 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -81,6 +80,3 @@ git push origin my-feature-branch
 
 5. Create a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
