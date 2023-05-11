@@ -16,7 +16,7 @@ To install Emojipedia, you'll need to have [Node.js](https://nodejs.org/) and [n
 1. Clone the repository:
 
 ```
-git clone https://github.com/Emojipedia/emojipedia.git
+git clone https://github.com/Webdevava/Emojipedia.git
 ```
 
 2. Navigate to the project directory:
