@@ -1,4 +1,5 @@
 # Emojipedia
+## Using React
 
 Emojipedia is a React.js application that displays a collection of emojis along with their names and meanings.
 
